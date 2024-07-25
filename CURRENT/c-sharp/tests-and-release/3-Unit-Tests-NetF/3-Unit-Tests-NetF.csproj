@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework>
+    <RootNamespace>UnitTestsNet7</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.2" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="..\5-Unit-Tests-Core\ApiTest.cs" Link="ApiTest.cs" />
+    <Compile Include="..\5-Unit-Tests-Core\ExpressionTest.cs" Link="ExpressionTest.cs" />
+    <Compile Include="..\5-Unit-Tests-Core\Miscellaneous.cs" Link="Miscellaneous.cs" />
+    <Compile Include="..\5-Unit-Tests-Core\PerformanceTest.cs" Link="PerformanceTest.cs" />
+    <Compile Include="..\5-Unit-Tests-Core\SyntaxTest.cs" Link="SyntaxTest.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\8-Lib-Test\8-Lib-Test.csproj" />
+  </ItemGroup>
+
+</Project>
