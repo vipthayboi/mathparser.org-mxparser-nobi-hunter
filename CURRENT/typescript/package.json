@@ -1,5 +1,5 @@
 {
-  "name": "mathparser.org-mxparser",
+  "name": "mathparser.org-mxparser-nobi-hunter",
   "version": "1.0.4",
   "description": "Typescript port of the Java mXparser Framework",
   "main": "out/Tutorial.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Thilo Schaber",
+  "author": "Nobi Hunter",
   "keywords": [
     "mxparser",
     "math-parser",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariuszgromada/MathParser.org-mXparser.git"
+    "url": "git+https://github.com/vipthayboi/mathparser.org-mxparser-nobi-hunter.git"
   },
   "homepage": "http://mathparser.org/",
   "license": "ISC",
