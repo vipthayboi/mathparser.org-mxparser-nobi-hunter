@@ -1,6 +1,6 @@
 {
-  "name": "mathparser.org-mxparser-nobi-hunter",
-  "version": "1.0.4",
+  "name": "mathparser.org-mxparser-nobi",
+  "version": "1.0.0",
   "description": "Typescript port of the Java mXparser Framework",
   "main": "out/Tutorial.js",
   "bin": "out/Tutorial.js",
